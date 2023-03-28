@@ -1,0 +1,34 @@
+{
+    "name": "ournameismud/oauth-signeasy",
+    "description": "Signeasy OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cole Henley",
+            "email": "cole@ournameismud.co.uk",
+            "homepage": "https://github.com/ournameismud"
+        }
+    ],
+    "keywords": [
+        "oauth",
+        "oauth2",
+        "client",
+        "authorization",
+        "authorisation",
+        "signeasy"
+    ],
+    "require": {
+        "league/oauth2-client": "^2.0",
+        "craftcms/cms": "^3.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ournameismud\\OAuth2\\Client\\": "src/"
+        }
+    },    
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
